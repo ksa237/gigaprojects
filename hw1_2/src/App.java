@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import static ru.netology.service.CustomsService.calculateCustoms;
 
-class Main {
+class App {
 
     public static void main (String[] args) {
 

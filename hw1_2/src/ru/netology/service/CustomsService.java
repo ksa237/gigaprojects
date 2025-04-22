@@ -1,11 +1,11 @@
 package ru.netology.service;
 
 public class CustomsService{
-    public static int rate;
+    public static final int RATE_OF_WEIGHT = 100;
 
     public static int calculateCustoms(int priceParam, int weightParam){
-
-        rate = (priceParam/100) + (weightParam * 100);
+        int rate;
+        rate = (priceParam/100) + (weightParam * RATE_OF_WEIGHT);
         return rate;
     }
 

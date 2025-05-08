@@ -25,14 +25,7 @@ public class Book {
 
     public boolean matches(String find) {
 
-        if (title.contains(find)) {
-            return true;
-
-        } else if (author.contains(find)) {
-            return true;
-        } else {
-            return false;
-        }
+        return title.contains(find) || author.contains(find);
 
     }
 
